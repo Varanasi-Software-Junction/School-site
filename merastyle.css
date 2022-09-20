@@ -1,0 +1,42 @@
+.nav-link
+{
+    /* nav-link used change style in the link tag*/ 
+    font-size: 25px;
+    color:white;  
+
+    background-color: none;
+
+}
+.nav-link:hover{
+    color: rgb(126, 252, 239);
+    background-color: white;
+}
+.logoimg{
+
+    /*logo image change the style on school logo image*/
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: solid rgb(5, 176, 176);
+    box-shadow: 2px 4px 5px ghostwhite;
+}
+nav{
+    background-color:    black;
+}
+.searchbox{
+    display: flex;
+    color: teal;
+   box-shadow: 2px 2px 5px white;
+}
+.searchbutton{
+    
+    color: white;
+    background-color: rgb(126, 252, 239);
+    border: solid  white;
+   
+}
+.searchbutton:hover{
+    color: black;
+    background-color: antiquewhite;
+}
+
