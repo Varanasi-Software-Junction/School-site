@@ -1,27 +1,22 @@
 .nav-link
 {
     /* nav-link used change style in the link tag*/ 
-    font-size: 28px;
-    color:orange;
+    font-size: 25px;
+    color:white;
     text-shadow: 1px 1px 1px black;
+
     background-color: none;
 
 }
 .nav-link:hover{
     /* color: rgb(126, 252, 239); */
-    color:red;
+    color: red;
     text-shadow: 1px 1px 1px black;
    
 }
 #home{
     color: red;
     text-shadow: 1px 1px 1px black;
-}
-#logo{
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
-    box-shadow: 2px 3px 5px skyblue;
 }
 .logoimg{
 
@@ -33,7 +28,17 @@
     box-shadow: 2px 4px 5px ghostwhite;
 }
 
-
+.searchbox{
+    color: teal;
+   box-shadow: 2px 2px 5px white;
+}
+.searchbutton{
+    
+    color: white;
+    background-color: yellowgreen;
+    
+   
+}
 
 #code{
     color:mediumseagreen;
@@ -53,11 +58,6 @@ body {
     font-family: "Audiowide",sans-serif;
   }
 
-  h1{
-    color: white;
-      text-shadow: 1px 1px 1px black;
-  }
-
   .col{
     display: flex;
     flex-direction: column;
@@ -67,11 +67,4 @@ body {
 }
 .bg{
     background-color: lightgray;
-}
-.logo{
-    height: 35px;
-    width: 35px;
-    border-radius: 50px;
-    margin-top: 10px;
-       box-shadow: 2px 3px 5px skyblue;
 }
