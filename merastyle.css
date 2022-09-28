@@ -1,7 +1,7 @@
 .nav-link
 {
     /* nav-link used change style in the link tag*/ 
-    font-size: 28px;
+    font-size: 25px;
     color:orange;
     text-shadow: 1px 1px 1px black;
     background-color: none;
@@ -23,22 +23,8 @@
     border-radius: 50px;
     box-shadow: 2px 3px 5px skyblue;
 }
-.logoimg{
-
-    /*logo image change the style on school logo image*/
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: solid rgb(126, 252, 239);
-    box-shadow: 2px 4px 5px ghostwhite;
-}
 
 
-
-#code{
-    color:mediumseagreen;
-    font-size: 35px;
-}
 
 .theam{
     background-color:lightblue;
@@ -58,13 +44,8 @@ body {
       text-shadow: 1px 1px 1px black;
   }
 
-  .col{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
+ 
    
-}
 .bg{
     background-color: lightgray;
 }
